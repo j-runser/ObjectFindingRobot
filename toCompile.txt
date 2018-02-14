@@ -1,0 +1,4 @@
+To compile any documents that are using LibSerial the following command must be used:
+ $ g++ <file.cpp> -L/usr/local/lib -lserial -pthread
+
+The files are compiled in C++ using the LibSerial library and the LibSerial library uses POSIX Threads which require a special library of thier own.
